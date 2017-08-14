@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		638869891F3C0E7600E0DA3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 638869881F3C0E7600E0DA3C /* main.m */; };
+		6388698C1F3C0E7600E0DA3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6388698B1F3C0E7600E0DA3C /* AppDelegate.m */; };
+		6388698F1F3C0E7600E0DA3C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6388698E1F3C0E7600E0DA3C /* ViewController.m */; };
+		638869921F3C0E7600E0DA3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638869901F3C0E7600E0DA3C /* Main.storyboard */; };
+		638869941F3C0E7600E0DA3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638869931F3C0E7600E0DA3C /* Assets.xcassets */; };
+		638869971F3C0E7600E0DA3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638869951F3C0E7600E0DA3C /* LaunchScreen.storyboard */; };
+		6388699F1F3C0E9F00E0DA3C /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6388699E1F3C0E9F00E0DA3C /* back.jpg */; };
+		638869A21F3C0F3F00E0DA3C /* RCGestrueGiftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 638869A11F3C0F3F00E0DA3C /* RCGestrueGiftView.m */; };
+		638869AB1F3D8CCE00E0DA3C /* heart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638869AA1F3D8CCE00E0DA3C /* heart.jpeg */; };
+		DDE7B9224B275A824997CF23 /* libPods-RCGestureGiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCECDCC6724FDEDB5A39C29 /* libPods-RCGestureGiftDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BCECDCC6724FDEDB5A39C29 /* libPods-RCGestureGiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RCGestureGiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638869841F3C0E7600E0DA3C /* RCGestureGiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCGestureGiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		638869881F3C0E7600E0DA3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6388698A1F3C0E7600E0DA3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6388698B1F3C0E7600E0DA3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6388698D1F3C0E7600E0DA3C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6388698E1F3C0E7600E0DA3C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		638869911F3C0E7600E0DA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		638869931F3C0E7600E0DA3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		638869961F3C0E7600E0DA3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		638869981F3C0E7600E0DA3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6388699E1F3C0E9F00E0DA3C /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		638869A01F3C0F3F00E0DA3C /* RCGestrueGiftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCGestrueGiftView.h; sourceTree = "<group>"; };
+		638869A11F3C0F3F00E0DA3C /* RCGestrueGiftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCGestrueGiftView.m; sourceTree = "<group>"; };
+		638869AA1F3D8CCE00E0DA3C /* heart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heart.jpeg; sourceTree = "<group>"; };
+		6850DDE3D5EEEE914B170CF8 /* Pods-RCGestureGiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCGestureGiftDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RCGestureGiftDemo/Pods-RCGestureGiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8724CC8A688F879AF3DB02DA /* Pods-RCGestureGiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RCGestureGiftDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RCGestureGiftDemo/Pods-RCGestureGiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		638869811F3C0E7600E0DA3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE7B9224B275A824997CF23 /* libPods-RCGestureGiftDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6388697B1F3C0E7600E0DA3C = {
+			isa = PBXGroup;
+			children = (
+				638869861F3C0E7600E0DA3C /* RCGestureGiftDemo */,
+				638869851F3C0E7600E0DA3C /* Products */,
+				78A943AF2C48B1D07095DC7E /* Pods */,
+				7656744854F5B5A85BA6228E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		638869851F3C0E7600E0DA3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638869841F3C0E7600E0DA3C /* RCGestureGiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		638869861F3C0E7600E0DA3C /* RCGestureGiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				638869A01F3C0F3F00E0DA3C /* RCGestrueGiftView.h */,
+				638869A11F3C0F3F00E0DA3C /* RCGestrueGiftView.m */,
+				638869AA1F3D8CCE00E0DA3C /* heart.jpeg */,
+				6388699E1F3C0E9F00E0DA3C /* back.jpg */,
+				6388698A1F3C0E7600E0DA3C /* AppDelegate.h */,
+				6388698B1F3C0E7600E0DA3C /* AppDelegate.m */,
+				6388698D1F3C0E7600E0DA3C /* ViewController.h */,
+				6388698E1F3C0E7600E0DA3C /* ViewController.m */,
+				638869901F3C0E7600E0DA3C /* Main.storyboard */,
+				638869931F3C0E7600E0DA3C /* Assets.xcassets */,
+				638869951F3C0E7600E0DA3C /* LaunchScreen.storyboard */,
+				638869981F3C0E7600E0DA3C /* Info.plist */,
+				638869871F3C0E7600E0DA3C /* Supporting Files */,
+			);
+			path = RCGestureGiftDemo;
+			sourceTree = "<group>";
+		};
+		638869871F3C0E7600E0DA3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				638869881F3C0E7600E0DA3C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7656744854F5B5A85BA6228E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BCECDCC6724FDEDB5A39C29 /* libPods-RCGestureGiftDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78A943AF2C48B1D07095DC7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6850DDE3D5EEEE914B170CF8 /* Pods-RCGestureGiftDemo.debug.xcconfig */,
+				8724CC8A688F879AF3DB02DA /* Pods-RCGestureGiftDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		638869831F3C0E7600E0DA3C /* RCGestureGiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6388699B1F3C0E7600E0DA3C /* Build configuration list for PBXNativeTarget "RCGestureGiftDemo" */;
+			buildPhases = (
+				F85155B832EEC62435EFD405 /* [CP] Check Pods Manifest.lock */,
+				638869801F3C0E7600E0DA3C /* Sources */,
+				638869811F3C0E7600E0DA3C /* Frameworks */,
+				638869821F3C0E7600E0DA3C /* Resources */,
+				67901F6DC92A27CC7A5AB10C /* [CP] Embed Pods Frameworks */,
+				7F1474EA3D027A4232DDDFD4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCGestureGiftDemo;
+			productName = RCGestureGiftDemo;
+			productReference = 638869841F3C0E7600E0DA3C /* RCGestureGiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6388697C1F3C0E7600E0DA3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kkk;
+				TargetAttributes = {
+					638869831F3C0E7600E0DA3C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 56VP48RXDB;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6388697F1F3C0E7600E0DA3C /* Build configuration list for PBXProject "RCGestureGiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6388697B1F3C0E7600E0DA3C;
+			productRefGroup = 638869851F3C0E7600E0DA3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638869831F3C0E7600E0DA3C /* RCGestureGiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		638869821F3C0E7600E0DA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6388699F1F3C0E9F00E0DA3C /* back.jpg in Resources */,
+				638869971F3C0E7600E0DA3C /* LaunchScreen.storyboard in Resources */,
+				638869941F3C0E7600E0DA3C /* Assets.xcassets in Resources */,
+				638869AB1F3D8CCE00E0DA3C /* heart.jpeg in Resources */,
+				638869921F3C0E7600E0DA3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67901F6DC92A27CC7A5AB10C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCGestureGiftDemo/Pods-RCGestureGiftDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1474EA3D027A4232DDDFD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RCGestureGiftDemo/Pods-RCGestureGiftDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85155B832EEC62435EFD405 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638869801F3C0E7600E0DA3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6388698F1F3C0E7600E0DA3C /* ViewController.m in Sources */,
+				6388698C1F3C0E7600E0DA3C /* AppDelegate.m in Sources */,
+				638869891F3C0E7600E0DA3C /* main.m in Sources */,
+				638869A21F3C0F3F00E0DA3C /* RCGestrueGiftView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		638869901F3C0E7600E0DA3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638869911F3C0E7600E0DA3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		638869951F3C0E7600E0DA3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638869961F3C0E7600E0DA3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		638869991F3C0E7600E0DA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6388699A1F3C0E7600E0DA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6388699C1F3C0E7600E0DA3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6850DDE3D5EEEE914B170CF8 /* Pods-RCGestureGiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56VP48RXDB;
+				INFOPLIST_FILE = RCGestureGiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.RCGestureGiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6388699D1F3C0E7600E0DA3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8724CC8A688F879AF3DB02DA /* Pods-RCGestureGiftDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56VP48RXDB;
+				INFOPLIST_FILE = RCGestureGiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kkk.RCGestureGiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6388697F1F3C0E7600E0DA3C /* Build configuration list for PBXProject "RCGestureGiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638869991F3C0E7600E0DA3C /* Debug */,
+				6388699A1F3C0E7600E0DA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6388699B1F3C0E7600E0DA3C /* Build configuration list for PBXNativeTarget "RCGestureGiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6388699C1F3C0E7600E0DA3C /* Debug */,
+				6388699D1F3C0E7600E0DA3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6388697C1F3C0E7600E0DA3C /* Project object */;
+}
